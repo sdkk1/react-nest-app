@@ -12,5 +12,5 @@ export class CreateTaskInput {
   dueDate: string;
 
   @Field({ nullable: true })
-  description: string;
+  description?: string;
 }
